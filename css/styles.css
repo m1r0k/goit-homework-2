@@ -22,7 +22,7 @@ a:link:focus {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #2E2F42;
+    color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -30,59 +30,93 @@ a:link:focus {
 }
 
 .page-header .link-logo .logo {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
-address {
+.page-header .link-pages {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.page-header .link-pages a:link:hover,
+a:link:focus {
+    color: #404bbf;
+}
+
+.address {
     font-style: normal;
     font-weight: 400;
+    color: #434455;
 }
 
 .address .link:hover,
 .address .link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .hero-section {
     background: #2E2F42;
 }
 
-h1 {
+.header-one {
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
-button {
+.button-hero-section {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     background-color: #4D5AE5;
     font-weight: 500;
     color: #FFFFFF;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     border: none;
 }
 
-h2 {
+.button-hero-section:hover,
+.button-hero-section:focus {
+    background-color: #404BBF;
+}
+
+.header-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     color: #2E2F42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-h3 {
+.header-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .team {
     background-color: #F4F4FD;
     text-align: center;
+}
+
+.team .members {
+    background-color: #FFFFFF;
 }
 
 footer {
@@ -95,7 +129,7 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #F4F4FD;
+    color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -103,5 +137,11 @@ footer {
 }
 
 .page-footer .link-logo .logo {
-    color: #4D5AE5;
+    color: #F4F4FD;
+}
+
+.page-footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
