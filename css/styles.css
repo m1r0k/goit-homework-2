@@ -9,15 +9,6 @@ body {
 
 }
 
-.page-header a:link,
-a:link:hover,
-a:link:focus {
-    font-weight: 500;
-    font-size: 16px;
-    color: #2E2F42;
-    text-decoration: none;
-}
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -33,15 +24,15 @@ a:link:focus {
     color: #2E2F42;
 }
 
-.page-header .link-pages {
+.link-pages {
     font-weight: 500;
     font-size: 16px;
     color: #2E2F42;
     text-decoration: none;
 }
 
-.page-header .link-pages a:link:hover,
-a:link:focus {
+.link-pages:hover,
+.link-pages:focus {
     color: #404bbf;
 }
 
@@ -51,12 +42,12 @@ a:link:focus {
     color: #434455;
 }
 
-.address .link {
+.link-contact {
     color: #434455;
 }
 
-.address .link:hover,
-.address .link:focus {
+.link-contact:hover,
+.link-contact:focus {
     color: #404bbf;
 }
 
