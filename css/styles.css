@@ -1,12 +1,16 @@
 body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+}
 
+a:link {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 .header-logo {
@@ -38,12 +42,12 @@ body {
 
 .address {
     font-style: normal;
-    font-weight: 400;
-    color: #434455;
 }
 
 .link-contact {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .link-contact:hover,
@@ -88,6 +92,7 @@ body {
     color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    visibility: hidden;
 }
 
 .header-three {
@@ -116,8 +121,6 @@ body {
 
 footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
-    ;
 }
 
 .page-footer .link-logo {
@@ -135,7 +138,7 @@ footer {
     color: #F4F4FD;
 }
 
-.page-footer {
+.paragraph-footer {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
